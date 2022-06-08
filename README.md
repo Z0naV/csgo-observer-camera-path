@@ -1,4 +1,4 @@
-CS GO caster config
+CS GO observer camera path
 ===================
 
 Config files for CS GO observer. Generic settings, binds, camera location binds for many maps etc.
@@ -43,7 +43,7 @@ After loading the map config, following binds should work:
 - `Keypad 3,6,9` - B site angles / pathways to B
 
 More specific camera locations and other documentation can be found from 
-file *camera_locations.txt* or from the map specific config file comments.
+file *guide.txt* or from the map specific config file comments.
 
 ##### 5 second lerps to above angles
 Switching first to a static camera angle before lerping is recommended.
