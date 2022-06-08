@@ -3,20 +3,18 @@ CS GO caster config
 
 Config files for CS GO observer. Generic settings, binds, camera location binds for many maps etc.
 
-Developed for Finnish Akateeminen Kynäriliiga (AKL in short) (=Academic Counter Strike League) observer in mind.
+Developed for cybermed1a observer.
 Originally a fork of baabelfish's observer config, nowadays pretty standalone.
 
 # Installation
 1. Go to csgo's cfg directory:  (On windows: *C:\Program Files (x86)\Steam\steamapps\common\Counter-StrikeGlobal Offensive\csgo\cfg*)
 2. Clone the contents of the repo under a folder named *caster*:
--- e.g. on cmd: `git clone https://github.com/kynarilaarnio/csgo-observer-config caster`
+
 
 # Usage
 - From console run `exec caster/caster`
 - After above, `caster_map_<map>` (*e.g. caster_map_d2*) to load camera binds for individual map
--- Alternatively - `exec caster/pos_<map>` (*e.g. exec caster/pos_d2*)
 - `caster_map_clear` to clear map specific binds (*or exec caster/pos_clear*)
-- TODO feature: Run `caster_help` to get more help (*currently not implemented*)
 
 
 ## Binds
@@ -69,8 +67,10 @@ To avoid using `caster_map_<map>` aliases described above, these binds can be us
 - `Home` - de_mirage
 - `PgUp` - de_dust2
 - `Delete` - Same as *exec caster/caster*. Clear all the map specific binds and reload the config
-- `End` - de_train
+- `End` - de_ancient
 - `PgDown` - de_overpass
+- `]` - de_vertigo
+- `[` - de_nuke
 
 #### Sounds
 
@@ -97,6 +97,5 @@ The binds can be used to switch a server on the fly but they only work in-game. 
 
 
 # Todo
-- Add nuke
-- Add vertigo
+- Add caster_help cfg
 
