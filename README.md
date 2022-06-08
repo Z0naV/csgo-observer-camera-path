@@ -4,6 +4,7 @@ CS GO caster config
 Config files for CS GO observer. Generic settings, binds, camera location binds for many maps etc.
 
 Developed for cybermed1a observer.
+
 Originally a fork of baabelfish's observer config, nowadays pretty standalone.
 
 # Installation
